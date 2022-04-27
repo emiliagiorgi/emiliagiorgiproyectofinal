@@ -1,0 +1,58 @@
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100&family=Roboto+Serif:wght@100&display=swap");
+.btn-receta, .btn-bordeado {
+  background-color: rgba(217, 190, 170, 0.8);
+  align-items: center;
+  justify-content: center;
+  border: none; }
+  .btn-receta:hover, .btn-bordeado:hover {
+    color: grey;
+    cursor: pointer;
+    transition: all 2s; }
+
+.btn-bordeado {
+  border-radius: 15px; }
+
+.lista {
+  font-size: 1em;
+  color: dark; }
+
+.receta {
+  font-size: 1em;
+  color: dark;
+  font-family: 'Roboto Serif', serif; }
+
+.cuerpo {
+  background-color: #d9c6b0; }
+
+h1 {
+  font-family: "Roboto Serif", serif;
+  margin: 10px 0;
+  font-size: 3rem; }
+
+h2 {
+  font-family: "Roboto Mono", monospace;
+  margin: 10px 0;
+  font-size: 1.8rem; }
+
+ul {
+  font-family: "Roboto Mono", monospace; }
+
+.tamaño {
+  font-size: 2.6rem; }
+
+.bruschettas {
+  font-size: 1.6rem;
+  font-family: "Roboto Serif", serif; }
+
+.mi {
+  font-size: 2rem; }
+
+#botonera {
+  background-color: rgba(217, 190, 170, 0.8); }
+  #botonera img[src="img/logovivacousine.webp"] {
+    width: 200px; }
+
+@media (min-width: 280px) and (max-width: 895px) {
+  #botonera img [src="img/logovivacousine.webp"] {
+    width: 100px; } }
