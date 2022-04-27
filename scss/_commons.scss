@@ -1,0 +1,38 @@
+$mainColor:rgb(166,98,38);
+$secondaryColor:rgb(217,198,176);
+$botonera:rgba(217,190,170,.8);
+
+.btn-receta{
+		background-color:$botonera;
+		align-items:center;
+		justify-content: center;
+		border: none;
+		&:hover{
+			color: grey;
+			cursor: pointer;
+			transition: all 2s;
+		}
+}
+
+.btn-bordeado{
+	@extend .btn-receta;
+	border-radius:15px;
+}
+
+.lista{
+	font-size: 1em;
+	color: dark;
+}
+
+@mixin recetas ($font-size, $color){
+	font-size: $font-size;
+	color: $color;
+	font-family: 'Roboto Serif', serif;
+}
+
+.receta{
+	@include recetas (1em, dark);
+}
+
+
+

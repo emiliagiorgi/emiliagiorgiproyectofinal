@@ -1,0 +1,12 @@
+#botonera{
+	background-color: $botonera;
+	img[src="img/logovivacousine.webp"]{
+		width: 200px;
+	}
+}
+
+@media (min-width: 280px) and (max-width: 895px){
+	#botonera img [src="img/logovivacousine.webp"]{
+		width: 100px;
+	}
+}
